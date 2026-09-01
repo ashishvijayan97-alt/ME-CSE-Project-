@@ -1,0 +1,8 @@
+{
+  "name": "ShopCloud",
+  "description": "A modern e-commerce platform with customer shopping, cart, wishlist, checkout, order tracking, product reviews, and comprehensive admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
