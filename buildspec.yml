@@ -1,0 +1,30 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 22
+
+  pre_build:
+    commands:
+      - echo "Installing frontend dependencies..."
+      - npm ci
+
+  build:
+    commands:
+      - echo "Building React application..."
+      - npm run build
+
+  post_build:
+    commands:
+      - echo "ShopCloud build completed successfully."
+
+artifacts:
+  files:
+    - appspec.yml
+    - backend/**/*
+    - dist/**/*
+    - scripts/**/*
+    - package.json
+    - package-lock.json
+  discard-paths: no
