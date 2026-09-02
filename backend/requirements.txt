@@ -4,5 +4,5 @@ Flask-Login==0.6.3
 Flask-CORS==4.0.1
 Werkzeug==3.0.3
 python-dotenv==1.0.1
-psycopg2-binary==2.9.9
-SQLAlchemy==2.0.30
+psycopg2-binary==2.9.12
+SQLAlchemy==2.0.52
