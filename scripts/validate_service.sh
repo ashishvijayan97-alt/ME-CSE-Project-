@@ -14,7 +14,7 @@ for i in {1..30}; do
         echo "ShopCloud API is responding successfully."
         echo "ShopCloud application validation successful."
         echo "=== ShopCloud validation completed ==="
-        exit 0
+        exit 1
     fi
 
     echo "API not ready yet... attempt $i/30"
